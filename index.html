@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calorie Tracker </title>
+    <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+  </head><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <body>
+
+<nav>
+  <div class="nav-wrapper blue">
+
+    <div class="container">
+      <a href="#" class="brand-logo center"> Track Calorie</a>
+      <ul class="right">
+        <li> <a href="#" class="clearall-btn btn blue lighten-3">Clear All</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<br>
+
+<div class="container">
+<div class="card ">
+  <div class="card-content">
+   <span class="card-title"> Add Meal/Food</span>
+
+
+  <form class="col">
+    <div class="row">
+      <div class="input-field col s6">
+        <input type="text" name="Add Item" id="item-name" placeholder="Enter Item">
+        <label for="item-name"> Meal</label>
+      </div>
+      <div class="input-field col s6">
+        <input type="number" name="Add Calorie" id="item-calories" placeholder="Enter Calories">
+        <label for="item-calories"> Calorie</label>
+      </div>
+    </div>
+  </form>
+
+<button class="add-item btn blue darken-3"><i class="fas fa-plus-circle"></i> Add Meal</button>
+<button class="update-item btn orange"><i class="fas fa-pen-square"></i> Update Meal</button>
+<button class="delete-item btn red"><i class="fas fa-times-circle"></i> Delete Meal</button>
+<button class="back-btn btn grey right"><i class="fas fa-arrow-circle-left"></i> Back</button>
+
+
+</div>
+</div>
+
+
+<h3 class="total-calories center">Total Calories: <span class=total-cal>0</span></h3>
+
+<div class="card">
+  <div class="card-body">
+    <ul class="collection item-list">
+
+      <!-- <li class="collection-item">
+        <strong>Rice :</strong><em> 200 Calories</em>
+        <a class="secondary-content">
+        <i class="fas fa-edit"></i>
+        </a>
+      </li>
+      <li class="collection-item">
+        <strong>Rice :</strong><em> 200 Calories</em>
+        <a class="secondary-content">
+        <i class="fas fa-edit"></i>
+        </a>
+      </li>
+      <li class="collection-item">
+        <strong>Rice :</strong><em> 200 Calories</em>
+        <a class="secondary-content">
+        <i class="fas fa-edit"></i>
+        </a>
+      </li> -->
+
+    </ul>
+  </div>
+</div>
+
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
